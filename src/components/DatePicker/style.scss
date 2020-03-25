@@ -1,0 +1,159 @@
+.ant-modal-body {
+  padding: 0;
+}
+.datepicker-plot-area .datepicker-day-view .month-grid-box {
+  min-height: 215px;
+}
+.anticon {
+  margin-top: 5px;
+}
+.datepicker-plot-area {
+  margin: 0;
+  background-color: #3787fe !important;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.ant-modal-close {
+  display: none;
+}
+.ant-btn-primary {
+  color: #fff;
+  background-color: #3787fe;
+  border-color: #3787fe;
+}
+.header-row-cell {
+  width: 14.2%;
+  float: right;
+}
+.pwt-btn-switch {
+  width: 80%;
+  float: left;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+  }
+}
+.pwt-btn-prev,
+.pwt-btn-next {
+  width: 10%;
+  float: left;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+  }
+}
+.datepicked {
+  background: #3787fe; // border-top-left-radius: 3px;
+  // border-top-right-radius: 3px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  div.date {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 22px;
+  }
+  .toolbox {
+    position: absolute;
+    left: 2px;
+    top: 15px;
+  }
+  .toolbox {
+    .pwt-btn-today {
+      background-color: #fafafa1a;
+      border-radius: 3px;
+      float: right;
+      display: block;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 11px;
+      height: 24px;
+      line-height: 24px;
+      white-space: nowrap;
+      margin: 0 auto;
+      margin-left: 5px;
+      padding: 0 5px;
+      min-width: 50px;
+      &:hover {
+        background-color: #fafafa2d;
+      }
+    }
+  }
+}
+.month-label {
+  /* border-radius: 3px; */
+  width: 30%;
+  margin: 4px;
+  min-height: 40px;
+  line-height: 40px;
+  float: right;
+  text-align: center;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.year-label {
+  /* border-radius: 3px; */
+  width: 22%;
+  margin: 4px;
+  min-height: 35px;
+  line-height: 35px;
+  float: right;
+  text-align: center;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.day-tag {
+  /* border-radius: 3px; */
+  width: 14.2%;
+  float: right;
+  text-align: center;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.day-tag.selected,
+.year-label.selected,
+.month-label.selected {
+  background-color: #f9ba32;
+  text-shadow: 1px 1px 1px #000;
+}
+.day-tag:hover,
+.month-label:hover,
+.year-label:hover {
+  background-color: #ecaf2a;
+  text-shadow: 1px 1px 1px #000;
+  color: #ffffff !important;
+}
+.datepicker-plot-area {
+  position: relative;
+}
+.vertical-center-modal {
+  text-align: center;
+  white-space: nowrap;
+}
+.vertical-center-modal:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+.vertical-center-modal .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  width: unset !important;
+  text-align: left;
+}
+.datepicker-plot-area .toolbox {
+  text-align: left;
+}
+.day-tag-last-month,
+.day-tag-next-month {
+  color: #ccc !important;
+}
+.day-tag,
+.month-label,
+.year-label {
+}
